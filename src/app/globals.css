@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: linear-gradient(to right, hwb(225 56% 40%), hwb(278 22% 75%));
+  height: 100vh;  
+  color: rgb(1, 17, 18);
+  caret-color: black;
+}
+
+.bg-black{
+  background-color: rgb(13, 4, 75);
+}
+
+.active {
+  color: #ffffff;  
+  font-weight: bold; 
+  /* text-decoration: underline; */
+}
